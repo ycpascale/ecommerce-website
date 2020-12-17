@@ -1,0 +1,9 @@
+.EarringItem {
+    padding-right: 27px;;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    }

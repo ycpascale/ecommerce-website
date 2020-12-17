@@ -2,6 +2,7 @@ import NavbarMenu from './components/layouts/Menu';
 import Footer from './components/layouts/Footer';
 import Homepage from './components/pages/Homepage';
 import AllEarrings from './components/pages/AllEarrings';
+import DisplayItem from './components/pages/DisplayItem';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faShoppingCart, faSearch} from '@fortawesome/free-solid-svg-icons';
@@ -33,7 +34,8 @@ function App() {
       <Router>
         <NavbarMenu />
         <Route exact path="/" component={Homepage} />
-        <Route exact path="/all-earrings" render={(props) => <AllEarrings {...props} initialItems={earrings} /> } />
+        <Route exact path="/earrings/all-earrings" render={(props) => <AllEarrings {...props} initialItems={earrings} /> } />
+        <Route exact path="/earrings/:earringId" component={DisplayItem} /> 
         <Footer />
       </Router>
     </div>

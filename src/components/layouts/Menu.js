@@ -46,7 +46,7 @@ function Menu() {
                         <NavDropdown.Item href="/other-necklaces">Other Necklaces</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="EARRINGS" id="basic-nav-dropdown" className="dropdown-item">
-                        <NavDropdown.Item href="/all-earrings">All Earrings</NavDropdown.Item>
+                        <NavDropdown.Item href="/earrings/all-earrings">All Earrings</NavDropdown.Item>
                         <NavDropdown.Item href="/stud-earrings">Stud Earrings</NavDropdown.Item>
                         <NavDropdown.Item href="/hoop-earrings">Hoop Earrings</NavDropdown.Item>
                         <NavDropdown.Item href="/drop-earrings">Drop Earrings</NavDropdown.Item>
